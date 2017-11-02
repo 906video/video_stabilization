@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["AY7V2"]); }
+
+__d("LocalBitrateHelper",[],(function a(b,c,d,e,f,g){"use strict";function h(i,j,k){if(j>=i.length||j<0)return null;k=j+k>=i.length?i.length-j-1:k;var l=i[j],m=i[j+k],n=l.url.startByte,o=m.url.endByte;if(n===undefined||o===undefined)return null;return(o-n)/(m.endTime-l.startTime)*8}f.exports={getLocalBitrate:h}}),null);
